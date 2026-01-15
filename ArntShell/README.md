@@ -38,7 +38,7 @@ Para implementar o parser foram utilizadas duas ferramentas UNIX: Lex e Yacc. Ta
 Os tokens são descritos em um arquivo shell.l utilizando de expressões regulares. O arquivo shell.l é processado com o programa **`lex`** que gera o Lexical Analyzer.
 
 
-
+---  
 
 ## Shell Grammar
 As regras de gramática shell são **SimpleCommands** e **Pipelines**.
