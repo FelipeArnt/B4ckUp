@@ -56,4 +56,5 @@ Por exemplo:
 
 - echo foo | sed 's/foo/bar/' é um pipeline, onde o output (foo + uma nova linha) do primeiro comando é passado para o input do segundo.
 - Se um pipeline é precedido por um `coproc`, ele é executado como um coprocessado; Um two-way pipe é estabelecido entre o pipeline e a parent shell.
-- O shell pode ler ou escrever no coprocesso por meio dos operadores de redirecionamento '>&p' e '<&p' ou com 'print -p' e 'read -p'. Um pipeline não pode ser precedido por 'coproc' e '!' simultaneamente. Se o controle de tarefas estiver ativo, o coprocesso pode ser tratado, exceto em entrada e saída, como uma tarefa em segundo plano comum.
+- O shell pode ler ou escrever no coprocesso por meio dos operadores de redirecionamento '>&p' e '<&p' ou com 'print -p' e 'read -p'. 
+- Um pipeline não pode ser precedido por 'coproc' e '!' simultaneamente. Se o controle de tarefas estiver ativo, o coprocesso pode ser tratado, exceto em entrada e saída, como uma tarefa em segundo plano comum.
